@@ -1,0 +1,71 @@
+/* Modal Styles */
+.modal-cont {
+    position: fixed; /* Stay in place */
+    z-index:2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-cont-light {
+    position: fixed; /* Stay in place */
+    z-index:2; /* Sit on top */
+    left: 43%;
+    top: 50%;
+    width: 200px; /* Full width */
+    height: 200px; /* Full height */
+    border-radius: 50%;
+    background-color: rgb(88,96,100); /* Fallback color */
+    background-color: rgba(88,96,100,0.9); /* Black w/ opacity */
+}
+.modal-inner-cont {
+    background-color: #fefefe;
+    margin: 200px auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-sizing: border-box;
+}
+.more-box-right {
+    width: 50%;
+    box-sizing: border-box;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    background: #fff;
+}
+.more-box-left {
+    width: 50%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    background: #fff;
+}
+.inner-more-box {
+    width: 100%;
+    max-height: 550px;
+    padding: 1.5%;
+}
+.view-box {
+    width: 90%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    background: #fff;
+}
+.inner-view-box {
+    width: 100%;
+    padding: 1.5%;
+}

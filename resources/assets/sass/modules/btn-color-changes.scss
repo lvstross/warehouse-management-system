@@ -1,0 +1,68 @@
+// Changing the default styling of Bootstrap Buttons
+.btn-default {
+    background-color: #9C9C9C;
+    border: 3px solid #3D3D3D;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: #3D3D3D;
+        color: #fff;
+    }
+}
+.btn-primary {
+    background-color: #9C9C9C;
+    border: 3px solid #29B0CB;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: #2497AD;
+    }
+}
+.btn-warning {
+    background-color: #9C9C9C;
+    border: 3px solid #F0B446;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: #CC9939;
+    }
+}
+.btn-success {
+    background-color: #9C9C9C;
+    border: 3px solid #30D19B;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: #2EB085;
+    }
+}
+.btn-danger {
+    background-color: #9C9C9C;
+    border: 3px solid #D44688;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        background-color: #B83E77;
+    }
+}
+// Alert Color changes
+.alert-success {
+    background-color: #cafbea;
+    border-color: #cafbea;
+    color: #29a77a;
+}
+.alert-danger {
+    background-color: #f1d4de;
+    border-color: #f1d4de;
+    color: #af366c;
+}
+.alert-warning {
+    background-color: #f3e9d6;
+    border-color: #f3e9d6;
+    color: #c58e32;
+}
+.alert-info {
+    background-color: #c8eef7;
+    border-color: #c8eef7;
+    color: #1d819a;
+}
