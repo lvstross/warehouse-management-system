@@ -58,6 +58,10 @@ This applications was built on Laravel 5.4 and developed in the Laravel Valet LE
 ~ npm install
 ~ npm run dev
 ```
+
+Exclude `npm run dev` if you don't want to rebuild the packages as all the production css and js is already included in the repo. But if you make changes, you'll need to run `npm run dev`. Also, the bootstrap CDN links are included in the layout
+templates but they are commented out, trying to get the bootstrap-sass to build again seems to not work this far from the projects original build. Uncommenting those CDN links includes the bootstrap needed for the project.
+
 5. Migrate the database files.
 ```bash
 ~ php artisan migrate
