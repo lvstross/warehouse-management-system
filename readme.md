@@ -83,3 +83,8 @@ templates but they are commented out, trying to get the bootstrap-sass to build 
 Once you have successfully opened the home page on the local host server, go to '/register' and make an account.
 This initial registration is a one time registrations as all other users are supposed to be created in the admin area of the 
 application in '/users'. All future visits to '/register' will be redirected to the '/login' page.
+
+# Software Versions
+### PHP Version: 7.1
+### Laravel 5.4
+### Node version 6.17.1
